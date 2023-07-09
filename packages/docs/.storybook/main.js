@@ -16,9 +16,9 @@ const config = {
   },
   viteFinal: (config, { configType }) => {
     if (configType === 'PRODUCTION') {
-      config.base = '/rocketseat-reactjs-design-system'
+      config.base = '/rocketseat-reactjs-design-system/'
     }
-    
+
     return config
   },
 };
